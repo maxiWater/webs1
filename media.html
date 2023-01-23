@@ -1,0 +1,109 @@
+<!--КР по WEB дизайну Оляновский А.В-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Медиа</title>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" href="favicon.ico">
+           <!-- css style -->
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+           <!-- navJS -->
+		   <script>
+ddsmoothmenu.init({
+	mainmenuid: "menu", 
+	orientation: 'h', 
+	classname: 'ddsmoothmenu', 
+	contentsource: "markup" 
+})
+           </script>
+     </head>
+     <body>
+	 
+	 <!--nav-->
+	 <div id="nav">
+    <div id="nav1"><span id="nav_top"></span>
+        <div id="header">    
+            <div id="site_title"><a href="#">главная</a></div>
+            <div id="menu" class="ddsmoothmenu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="pilots.html">Пилоты</a></li>
+					<li><a href="media.html" class="selected">Медия</a>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <br style="clear: left" />
+            </div> 
+        </div>
+		 
+<!--images/content/preview.jpg"-->	 
+<div id="glry">
+<div class="mosaicflow" data-item-height-calculation="attribute">
+		<div class="mosaicflow__item">
+			<img width="300" height="200" src="images/content/1.jpg"  alt="">
+			<img width="150" height="150" src="images/content/2.jpg"  alt="">
+			<img width="250" height="150" src="images/content/3.jpg"  alt="">
+			<img width="250" height="150" src="images/content/4.jpg"  alt="">
+			<p>6 зимний этап UDS в Тюмени на оз. Алебашево</p>
+		</div>
+		<div class="mosaicflow__item">
+			<img width="300" height="200" src="images/content/5.jpg"  alt="">
+			<img width="200" height="150" src="images/content/6.jpg"  alt="">
+			<img width="250" height="150" src="images/content/7.jpg"  alt="">
+			<img width="200" height="150" src="images/content/8.jpg"  alt="">
+			<p>5 летний этап UDS в Екатеринбурге</p>
+		</div>
+		<div class="mosaicflow__item">
+			<img width="300" height="200" src="images/content/9.jpg"  alt="">
+			<img width="200" height="150" src="images/content/10.jpg"  alt="">
+			<img width="250" height="150" src="images/content/11.jpg"  alt="">
+			<img width="200" height="150" src="images/content/12.jpg"  alt="">
+			<p>1 летний этап UDS в Тюмени</p>
+		</div>
+		
+	</div>
+</div>
+		<audio preload="auto" controls>
+		<source src="audio/l19u1d PHONK - COVID-19.mp3" />
+	</audio>
+
+	<script src="assets/jquery.js"></script>
+	<script src="assets/audioplayer.js"></script>
+	<script>
+		$( function()
+		{
+			$( 'audio' ).audioPlayer();
+		});
+	</script>
+</div>
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 202343944, {disableExpandChatSound: "1",disableNewMessagesSound: "1",disableButtonTooltip: "1"});
+</script>
+
+	<footer id="myFooter">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Подпишитесь на нас</h5>
+                    <ul>
+                        <li><a href="https://vk.com/public202343944">Вконтакте</a></li>
+                        <li><a href="https://www.instagram.com/ar.olyanovskiy/">Инстаграмм</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="footer-copyright">
+            <p>© 2020 UDS </p>
+        </div>
+    </footer>
+	
+	
+	
+
+
+	
+	
+     </body>
+</html>

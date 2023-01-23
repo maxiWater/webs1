@@ -1,0 +1,112 @@
+<!--КР по WEB дизайну Оляновский А.В-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Наши пилоты</title>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" href="favicon.ico">
+
+           <!-- css style -->
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+           <!-- navJS -->
+		   <script>
+ddsmoothmenu.init({
+	mainmenuid: "menu", 
+	orientation: 'h', 
+	classname: 'ddsmoothmenu', 
+	contentsource: "markup" 
+})
+           </script>
+		   
+     </head>
+     <body>
+	 
+	 <!--nav-->
+	 <div id="nav">
+    <div id="nav1"><span id="nav_top"></span>
+        <div id="header">    
+            <div id="site_title"><a href="#">главная</a></div>
+            <div id="menu" class="ddsmoothmenu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="pilots.html" class="selected">Пилоты</a></li>
+					<li><a href="media.html">Медия</a>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <br style="clear: left" />
+            </div> 
+        </div>
+		 <h5>Наши пилоты</h5>
+		   <div id="main">
+            
+        	<ul id="pilot">
+                <li>
+                    <a href="https://vk.com/blackwater1318"><img src="images/pilots/ao.jpg" class="imgimg2" alt="Artur" width="300" height="200" title="Оляновский Артур"/></a>
+				</li>
+				 <li>
+                    <a href="https://vk.com/hmmnn72"><img src="images/pilots/iv.jpeg" class="imgimg2" alt="Ivan" width="300" height="200" title="Тимофеев Иван"/></a>
+
+				</li>
+				<li>
+                    <a href="https://vk.com/paradox_unleashed"><img src="images/pilots/mica.jpg" class="imgimg2" alt="Micael" width="300" height="200" title="Березуев Михаель"/></a>
+
+				</li>
+            </ul>
+			 <ul id="pilot">
+                <li>
+                    <a href="https://vk.com/vi679"><img src="images/pilots/ma.jpg" class="imgimg2" alt="Masha" width="300" height="200" title="Дмитриева Мария"/></a>
+
+				</li>
+				 <li>
+                    <a href="https://vk.com/gchivchyan"><img src="images/pilots/go.jpg" class="imgimg2" alt="Gocha" width="300" height="200" title="Чивчян Георгий"/></a>
+
+				</li>
+				<li>
+                    <a href="https://vk.com/tsaregradsev_ark"><img src="images/pilots/car.jpg" class="imgimg2" alt="car" width="300" height="200" title="Цареградцев Аркадий"/></a>
+
+				</li>
+            </ul>
+        </div>    
+        <div class="cleaner h20"></div>
+           <p> нажатием на фото вы переходите на страницу пилота </p> 
+		<audio preload="auto" controls>
+		<source src="audio/FREE FLOW FLAVA - Mistake.mp3" />
+	</audio>
+
+	<script src="assets/jquery.js"></script>
+	<script src="assets/audioplayer.js"></script>
+	<script>
+		$( function()
+		{
+			$( 'audio' ).audioPlayer();
+		});
+	</script>		   
+    </div>
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 202343944, {disableExpandChatSound: "1",disableNewMessagesSound: "1",disableButtonTooltip: "1"});
+</script>
+	<!--foot-->
+<footer id="myFooter">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Подпишитесь на нас</h5>
+                    <ul>
+                        <li><a href="https://vk.com/public202343944">Вконтакте</a></li>
+                        <li><a href="https://www.instagram.com/ar.olyanovskiy/">Инстаграмм</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="footer-copyright">
+            <p>© 2020 UDS </p>
+        </div>
+    </footer>
+     </body>
+</html>
